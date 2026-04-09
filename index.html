@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio - Aiden Slabiak</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;600;800&display=swap">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22central%22 text-anchor=%22middle%22 font-size=%2260%22 fill=%22%2300d474%22 font-family=%22monospace%22 font-weight=%22bold%22>AS</text></svg>">
+    </head>
+    <body>
+
+        <main class="app-container">
+            <section class="left-panel">
+                <h1 class="name">Aiden Slabiak</h1>
+                <p class="tagline">Computer Science @ University of Alabama</p>
+                <p class="skills-list">C++ // Python // Low Latency // Operating Systems</p>
+                <nav class="links">
+                <a href="https://github.com/Aiden-10" target="_blank" rel="noopener noreferrer">Github</a>
+                <a href="https://linkedin.com/in/aidenslabiak" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="./resume_current.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+                <a href="#" id="email-link">Email Loading...</a>
+                </nav>
+            </section>
+
+            <section class="right-panel" id="projectGrid">
+                </section>
+        </main>
+
+        <div class="modal-overlay" id="modalOverlay">
+            <div class="modal-content">
+                <button class="close-btn" id="closeBtn" aria-label="Close Modal">&times;</button>
+                <h2 class="modal-title" id="mTitle">Project Title</h2>
+                
+                <img id="mImage" src="" alt="Project Preview" class="modal-image" style="display: none;" />
+                
+                <code class="modal-tech" id="mTech">Tech Stack</code>
+                <p class="modal-body" id="mBody">Description...</p>
+                <a href="#" class="github-btn" id="mLink" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            </div>
+        </div>
+
+        <script src="data.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
