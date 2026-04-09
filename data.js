@@ -38,7 +38,7 @@ const projectData = [
     {
         title: "The Traveling Salesman Problem Optimization",
         shortDesc: "Hybrid Genetic Algorithm with 2-opt local search for Traveling Salesman Problem.",
-        tech: "C++20, Parallel STL, Heuristics",
+        tech: "C++20, Algorithms",
         tags: ["C++", "Algorithms", "Optimization", "Heuristics"],
         body: "Implemented a Memetic Algorithm to find approximate solutions for the Traveling Salesman Problem (TSP). Combines a Genetic Algorithm for global exploration with a 2-opt local search for refinement. Utilizes modern C++ features for efficient implementation.",
         link: "",
