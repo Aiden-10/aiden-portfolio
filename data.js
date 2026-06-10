@@ -26,7 +26,7 @@ const projectData = [
         tags: ["Data Science", "Python", "Collaboration", "Data Engineering"], 
         body: "Developed in a two-person collaborative environment, this project involved building an end-to-end pipeline to predict aviation delays. Integrated 4 months of BTS flight data with NOAA observations. Engineered custom 'Airport Congestion' and 'Inclement Weather' metrics to increase model sensitivity.",
         link: "",
-        doc: "./docs/CS451_Data_Science_Paper.pdf", 
+        doc: "", 
         image: "https://placehold.co/800x400/222222/00d474?text=Flight+Delay+Analysis"
     },
     {
